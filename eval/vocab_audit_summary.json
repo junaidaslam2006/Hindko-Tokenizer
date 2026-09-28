@@ -1,0 +1,28 @@
+{
+ "what": "Headline counts of the vocabulary audit (F:/Hindko/_tokenizer/sota/vocab_audit/VOCAB_AUDIT.md, 2026-09-27). The piece lists themselves are kept private (they are for native-speaker review).",
+ "verdict": "no fix to the tokenizer needed before publishing",
+ "learned_pieces": 32441,
+ "arabic_script_learned_pieces_pct": 90.9,
+ "junk_artifact_pieces": 478,
+ "junk_artifact_pieces_pct_of_learned": 1.47,
+ "junk_test_token_share_pct": 0.29,
+ "longest_digit_run_in_any_piece": 4,
+ "ascii_digit_pieces": "single digits 0-9 only",
+ "urdu_digit_run_pieces_2_to_4": 345,
+ "pii_placeholder_dedicated_pieces": 0,
+ "pieces_identifying_private_individuals_found": 0,
+ "offensive_sense_attested": 13,
+ "sensitive_group_labels": 17,
+ "ordinary_words_usable_as_insults": 24,
+ "false_positive_candidates": 45,
+ "pieces_removed": 0,
+ "special_ids_emitted_on_11786145_real_tokens": 0,
+ "split_special_tokens_true_prevents_literal_special_match": false,
+ "sections": {
+  "composition": "2",
+  "junk": "3",
+  "privacy": "4",
+  "offensive": "5",
+  "specials": "7"
+ }
+}

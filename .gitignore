@@ -19,3 +19,13 @@ __pycache__/
 
 # InPage glyph table (GPL-3.0, fetched separately; see pipeline/README.md)
 pipeline/hp/glyph_map.py
+
+# the released tokenizer and its evaluation outputs are part of the repository (as on Hugging Face)
+!/tokenizer.json
+!/tokenizer_config.json
+!/special_tokens_map.json
+!/gauge.json
+!/sp.model
+!/sp.vocab
+!/eval/*.json
+!/eval/*.csv

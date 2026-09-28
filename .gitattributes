@@ -1,0 +1,12 @@
+# keep the released tokenizer files byte-identical on every platform (see SHA256SUMS)
+tokenizer.json -text
+tokenizer_config.json -text
+special_tokens_map.json -text
+gauge.json -text
+sp.model binary
+sp.vocab -text
+SHA256SUMS -text
+LICENSE -text
+eval/** -text
+examples/** -text
+benchmarks/** binary

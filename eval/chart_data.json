@@ -1,0 +1,176 @@
+{
+ "chart_bytes_per_token_test.png": [
+  {
+   "label": "hindko-tokenizer (this, 32k)",
+   "bytes_per_token": 7.277325843823662,
+   "tokens_vs_released": 1.0
+  },
+  {
+   "label": "urnova-95m (best external)",
+   "bytes_per_token": 6.061296952279107,
+   "tokens_vs_released": 1.2006
+  },
+  {
+   "label": "RoBERTa-Urdu (UrduHack)",
+   "bytes_per_token": 5.708947266954404,
+   "tokens_vs_released": 1.2747
+  },
+  {
+   "label": "BLOOM",
+   "bytes_per_token": 5.121690021531185,
+   "tokens_vs_released": 1.4209
+  },
+  {
+   "label": "Gemma 3 / Gemma 4",
+   "bytes_per_token": 4.61036885467272,
+   "tokens_vs_released": 1.5785
+  },
+  {
+   "label": "GPT-4o (o200k)",
+   "bytes_per_token": 4.337584149418278,
+   "tokens_vs_released": 1.6777
+  },
+  {
+   "label": "Mistral Tekken (NeMo, Small 4)",
+   "bytes_per_token": 3.901016504418474,
+   "tokens_vs_released": 1.8655
+  },
+  {
+   "label": "Llama 4",
+   "bytes_per_token": 3.7268769536216326,
+   "tokens_vs_released": 1.9527
+  },
+  {
+   "label": "Qwen 3.5",
+   "bytes_per_token": 3.5982036581495,
+   "tokens_vs_released": 2.0225
+  },
+  {
+   "label": "DeepSeek-V3 / R1 / V4",
+   "bytes_per_token": 3.372220466292344,
+   "tokens_vs_released": 2.158
+  },
+  {
+   "label": "Llama 3",
+   "bytes_per_token": 2.64122087382617,
+   "tokens_vs_released": 2.7553
+  }
+ ],
+ "chart_lm_bpb_dev_test.png": {
+  "confirm": [
+   {
+    "id": "R2-A4-SPnat-D2-32k",
+    "dev_delta_pct": -1.623655,
+    "dev_ci95": [
+     -2.107054,
+     -1.236059
+    ],
+    "test_delta_pct": -1.0148512414859043,
+    "test_ci95": [
+     -1.3337703266599765,
+     -0.719411106580577
+    ]
+   },
+   {
+    "id": "R2-A10-MinGram-P1r3-D2-48k",
+    "dev_delta_pct": -1.58176,
+    "dev_ci95": [
+     -1.867521,
+     -1.355869
+    ],
+    "test_delta_pct": -1.3160397372781005,
+    "test_ci95": [
+     -1.467033141440053,
+     -1.1643594058582694
+    ]
+   },
+   {
+    "id": "R2-A10-MinGram-P1r3-D2-32k",
+    "dev_delta_pct": -1.414409,
+    "dev_ci95": [
+     -1.66217,
+     -1.19142
+    ],
+    "test_delta_pct": -1.253180889269175,
+    "test_ci95": [
+     -1.4797207661189518,
+     -1.03708384604859
+    ]
+   },
+   {
+    "id": "R2-A1-P1r3-D2-48k",
+    "dev_delta_pct": -0.98924,
+    "dev_ci95": [
+     -1.211704,
+     -0.778742
+    ],
+    "test_delta_pct": -0.850660355728833,
+    "test_ci95": [
+     -1.0468293493009588,
+     -0.6530838548134663
+    ]
+   },
+   {
+    "id": "A1-P1r3-D2-32k",
+    "dev_delta_pct": -0.810497,
+    "dev_ci95": [
+     -1.000743,
+     -0.657493
+    ],
+    "test_delta_pct": -0.5660213536703774,
+    "test_ci95": [
+     -0.7539943802074569,
+     -0.38067108247804304
+    ]
+   }
+  ],
+  "large": [
+   {
+    "id": "R2-A4-SPnat-D2-32k",
+    "dev_delta_pct": -1.335532,
+    "dev_ci95": [
+     -1.775676,
+     -1.026276
+    ],
+    "test_delta_pct": -0.7701554030632566,
+    "test_ci95": [
+     -1.1521793550485442,
+     -0.3981661969961223
+    ]
+   },
+   {
+    "id": "R2-A10-MinGram-P1r3-D2-32k",
+    "dev_delta_pct": -0.715001,
+    "dev_ci95": [
+     -0.910685,
+     -0.524984
+    ],
+    "test_delta_pct": -0.4672962320113417,
+    "test_ci95": null
+   },
+   {
+    "id": "R2-A10-MinGram-P1r3-D2-48k",
+    "dev_delta_pct": -0.436436,
+    "dev_ci95": [
+     -0.622803,
+     -0.286684
+    ],
+    "test_delta_pct": -0.25657526280652554,
+    "test_ci95": [
+     -0.4354746500167368,
+     -0.08159379637904507
+    ]
+   },
+   {
+    "id": "A1-P1r3-D2-32k",
+    "dev_delta_pct": 0.027361,
+    "dev_ci95": [
+     -0.296706,
+     0.317218
+    ],
+    "test_delta_pct": null,
+    "test_ci95": null
+   }
+  ]
+ }
+}
