@@ -10,3 +10,4 @@ LICENSE -text
 eval/** -text
 examples/** -text
 benchmarks/** binary
+tokenizer/splits/split_manifest.jsonl -text

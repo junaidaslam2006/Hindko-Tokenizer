@@ -37,6 +37,7 @@ A 32,768-id SentencePiece Unigram tokenizer for **Hindko** (Northern `hno` and S
 | **LM evidence (test, pre-registered scale)** | −1.01 % bits per byte vs the standard BPE recipe, 95 % CI [−1.33, −0.72] |
 | **Known weak spot** | **+92 % tokens** on text typed with an Arabic keyboard layout (Arabic letters in place of the Urdu yeh, kaf and heh: `ي` `ك` `ه` for `ی` `ک` `ہ`); normalize first (see [Quickstart](#normalize-your-input-first)) |
 | **Version** | 1.0.0, 2026-09-27 |
+| **Code** | Corpus pipeline, study and evaluation code: [github.com/junaidaslam2006/Hindko-Tokenizer](https://github.com/junaidaslam2006/Hindko-Tokenizer) |
 
 ## Benchmarks
 
@@ -245,7 +246,7 @@ ids = tok(normalize(raw_text))["input_ids"]
 
 ## Performance
 
-All numbers are on the **strict test split**: 491 documents, 1,451,026 bytes, never used for training or selection of the tokenizer. Every tokenizer runs with its own native encoder and no special tokens added.
+All numbers are on the **strict test split**: 491 documents, 1,451,026 bytes, never used for training or selection of the tokenizer. The split of every corpus record (record IDs only, no text) is published as [`split_manifest.jsonl`](tokenizer/splits/split_manifest.jsonl) (sha256 `76582d3a1e0afefe…`), so the split can be reproduced exactly. Every tokenizer runs with its own native encoder and no special tokens added.
 
 ### (a) Held-out compression vs other tokenizers
 

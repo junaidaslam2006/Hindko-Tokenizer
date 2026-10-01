@@ -29,3 +29,4 @@ pipeline/hp/glyph_map.py
 !/sp.vocab
 !/eval/*.json
 !/eval/*.csv
+!/tokenizer/splits/split_manifest.jsonl
